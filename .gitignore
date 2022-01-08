@@ -1,0 +1,9 @@
+# Project exclude paths
+/distribute-lock/01_whatislock/target/
+/distribute-lock/02_impltypeoflock/target/
+/distribute-lock/03_oversell/target/
+/distribute-lock/04_distributelock/target/
+/distribute-tcc/tcc-template/target/
+/distribute-xa/xa-atomikos/target/
+/distribute-xa/xa-mycat/target/
+/distribute-xa/xa-shardingsphere/target/

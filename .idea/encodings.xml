@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/distribute-lock/01_whatislock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-lock/02_impltypeoflock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-lock/03_oversell/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-lock/04_distributelock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-lock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-lock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-tcc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-tcc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-tcc/tcc-template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-tcc/tcc-template/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-xa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-xa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-xa/xa-atomikos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-xa/xa-mycat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-xa/xa-shardingsphere/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

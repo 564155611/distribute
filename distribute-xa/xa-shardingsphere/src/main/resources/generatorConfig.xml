@@ -1,0 +1,37 @@
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <context id="simple" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        userId="root"
+                        password="123456"
+                        connectionURL="jdbc:mysql://192.168.12.161:3306/sharding1?characterEncoding=UTF-8&amp;useSSL=false&amp;useUnicode=true&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true">
+            <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.fanx.distribute.xa.shardingspheredemo.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.fanx.distribute.xa.shardingspheredemo.mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.fanx.distribute.xa.shardingspheredemo.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table schema="sharding1" tableName="t_order" domainObjectName="Order">
+            <columnOverride column="order_id" javaType="Long"/>
+        </table>
+        <table schema="sharding1" tableName="t_order_item" domainObjectName="OrderItem">
+            <columnOverride column="id" javaType="Long"/>
+        </table>
+    </context>
+</generatorConfiguration>

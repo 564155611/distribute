@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="02_impltypeoflock" />
         <module name="xa-shardingsphere" />
+        <module name="distribute-eventualconsistency-mq" />
         <module name="xa-atomikos" />
         <module name="xa-mycat" />
         <module name="tcc-template" />
         <module name="04_distributelock" />
         <module name="03_oversell" />
         <module name="01_whatislock" />
+        <module name="distribute-eventualconsistency-localmsg" />
       </profile>
     </annotationProcessing>
   </component>
@@ -24,6 +26,9 @@
       <module name="02_impltypeoflock" options="-parameters" />
       <module name="03_oversell" options="-parameters" />
       <module name="04_distributelock" options="-parameters" />
+      <module name="distribute-eventualconsistency" options="-parameters" />
+      <module name="distribute-eventualconsistency-localmsg" options="-parameters" />
+      <module name="distribute-eventualconsistency-mq" options="-parameters" />
       <module name="tcc-template" options="-parameters" />
       <module name="xa-atomikos" options="-parameters" />
       <module name="xa-mycat" options="-parameters" />

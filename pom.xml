@@ -16,6 +16,8 @@
         <module>distribute-lock</module>
         <module>distribute-xa</module>
         <module>distribute-tcc</module>
+        <module>distribute-eventualconsistency</module>
+        <module>distribute-eventualconsistency-mq</module>
     </modules>
 
     <properties>

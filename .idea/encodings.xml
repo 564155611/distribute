@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/distribute-eventualconsistency-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-eventualconsistency/distribute-eventualconsistency-localmsg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-eventualconsistency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distribute-eventualconsistency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/distribute-lock/01_whatislock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/distribute-lock/02_impltypeoflock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/distribute-lock/03_oversell/src/main/java" charset="UTF-8" />
